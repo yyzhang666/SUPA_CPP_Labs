@@ -30,14 +30,19 @@ If you have never seen it before the layout of VScode can seem a bit daunting bu
 
 The most important parts for the lab are the main editor window (where you will write your code), the terminal (where you will compile and run it, and the source control (git) tab on the left.
 
-This keeps track of any changes you make and is what you will use to submit your final code. In the image above the blue 2 indicates that there are two files that have changed recently. When you have code you want to submit open this tab, choose all of the files you would like to add, optionally write a commit message at the top, and finally click <kbd>commit</kbd> and <kbd>sync changes</kbd>:
+This keeps track of any changes you make and is what you will use to submit your final code. In the image above the blue 2 indicates that there are two files that have changed recently. 
+
+When you have code you want to submit open this tab, choose all of the files you would like to add, optionally write a commit message at the top. 
+
+Finally click <kbd>commit</kbd> and <kbd>sync changes</kbd>:
+
 ![](./assets/GitSubmission.png)
 
-Some notes on codespaces:
+## Some further notes on codespaces:
 - Provided you have a personal github account you should automatically get 60 core-hours of free codespace usage per-month, which should easily be enough for this course. 
     - If you go over your allowance it may be possible to extend it for free by registering a student github account but I haven't been able to verify this for obvious reasons
 - Related to the point above if you close down the tab your codespace is running in it will continue to run, and use up your allocation, for some time until the instance is automatically suspended. 
-    - To manually stop a codespace you can click the grey bar on the bottom left:
+    - To manually stop a codespace you can click the grey bar on the bottom left and then choose _Stop Current Codespace_:
     ![](./assets/VScode_StopCodespace.png)
     - Alternatively <kbd>shift</kbd>+<kbd>command</kbd>/<kbd>ctrl</kbd>+<kbd>P</kbd> should bring up the command bar and type _Codespaces: Stop Current Codespace_
 - The codespace itself is a virtual machine hosting an Ubuntu 22.04.3 image and a few pre-compiled packages. The image is linked to a VScode web-instance which acts as the remote-session host. 
