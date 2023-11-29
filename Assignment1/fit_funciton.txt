@@ -1,0 +1,2 @@
+the fit function is: y=0.601769*x+0.361017
+chi^2/NDF=5.42344
